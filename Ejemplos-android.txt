@@ -1,0 +1,204 @@
+﻿Taller acerca de integración, tecnologías emergentes y disruptivas
+
+
+Ejemplos-Android
+
+
+
+
+SENA 
+
+
+Desarrollo y Análisis de Software  
+
+
+Ficha 
+
+
+2627108 
+
+
+Aprendiz 
+
+
+Natalia Muñoz Serna 
+
+
+
+
+Evidencia 
+
+
+
+
+Evidencia de conocimiento: GA8-220501096-AA2-EV01 taller acerca de integración, tecnologías emergentes y disruptivas
+
+
+Sección 2 Taller
+
+
+
+
+2024
+
+
+
+
+
+
+aqui encontramos la clase principal de la aplicación android 
+
+
+package info.pauek.kmamillas; //declaracion del paquete 
+
+
+//importaciones 
+
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+
+// clase principal y en la que va el comportamiento  
+
+
+public class MainActivity extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+//se refiere a los botones a los que les va a dar comportamiento.
+
+
+        Button btn_a_millas = (Button) findViewById(R.id.btn_a_millas);
+        Button btn_a_km = (Button) findViewById(R.id.btn_a_km);
+
+
+        final EditText edit_km = (EditText) findViewById(R.id.edit_km);
+        final EditText edit_millas = (EditText) findViewById(R.id.edit_millas);
+
+
+        btn_a_millas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String skm = edit_km.getText().toString(); // se obtiene el texto 
+                float km = Float.parseFloat(skm);              // se convierte el string a numero 
+                float millas = km / 1.609f;                           // se hace el calculo
+        // se transforma el resultado de (millas a un string para mostrarlo en el cuadro del      texto)
+                String smillas = String.format("%f", millas) ;
+                edit_millas.setText(smillas);  // se setea el cuadro del texto para mostar el resultado
+            }
+        });
+
+
+// el proceso inverso para pasar de millas a kilometro 
+
+
+        btn_a_km.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String smillas = edit_millas.getText().toString();
+                float millas = Float.parseFloat(smillas);
+                float km = millas * 1.609f;
+                String skm = String.format("%f", km);
+                edit_km.setText(skm);
+            }
+        });
+    }
+}
+
+
+
+
+codigo del layout en xml 
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.pauek.kmamillas.MainActivity">
+
+
+    <TextView
+        android:text="Kilómetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_km"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/edit_km"
+        android:layout_alignBottom="@+id/edit_km"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_km"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:text="a millas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_km"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btn_a_millas"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+
+    <Button
+        android:text="A kilómetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_a_km"
+        android:layout_alignBaseline="@+id/btn_a_millas"
+        android:layout_alignBottom="@+id/btn_a_millas"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <TextView
+        android:text="Millas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_millas"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/edit_millas"
+        android:layout_alignBottom="@+id/edit_millas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edit_millas"
+        android:layout_below="@+id/btn_a_millas"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
