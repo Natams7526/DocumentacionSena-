@@ -1,0 +1,182 @@
+﻿Taller acerca de integración, tecnologías emergentes y disruptivas
+
+
+
+
+Construcción de Software: Sistema de Agendamiento de Citas para Barbería
+
+
+
+
+
+
+
+
+SENA 
+
+
+Desarrollo y Análisis de Software  
+
+
+
+
+
+
+
+
+Ficha 
+
+
+2627108 
+
+
+
+
+
+
+
+
+Aprendiz 
+
+
+Natalia Muñoz Serna 
+
+
+
+
+
+
+
+
+
+
+Evidencia 
+
+
+
+
+Evidencia de conocimiento: GA8-220501096-AA2-EV01 taller acerca de integración, tecnologías emergentes y disruptivas
+
+
+
+
+
+
+
+
+2024
+
+
+
+
+
+
+
+
+Sección 1 Taller
+
+
+● ¿Qué es Android?
+
+
+Android es un sistema operativo móvil desarrollado por Google, basado en el núcleo de Linux y diseñado principalmente para dispositivos con pantalla táctil, como teléfonos inteligentes y tabletas. Es uno de los sistemas operativos móviles más populares del mundo y se utiliza en una amplia variedad de dispositivos. Android ofrece una plataforma flexible y personalizable para desarrolladores y usuarios, con una amplia gama de aplicaciones disponibles a través de Google Play Store. Además de los dispositivos móviles, Android también se utiliza en otros tipos de dispositivos, como televisores inteligentes, relojes inteligentes, automóviles y dispositivos domésticos inteligentes.
+
+
+● Definición del concepto de APK
+
+
+APK (Android Application Package): Es el formato de archivo utilizado por el sistema operativo Android para distribuir e instalar aplicaciones. Un archivo APK contiene todos los elementos que conforman una aplicación, como código, recursos, archivos de configuración y manifiestos.
+
+
+● ¿Qué es el Android SDK?
+
+
+El Android SDK (Software Development Kit, en inglés) es un conjunto de herramientas de desarrollo proporcionadas por Google que permiten a los desarrolladores crear aplicaciones para el sistema operativo Android. El SDK incluye una variedad de herramientas, bibliotecas y recursos que son necesarios para desarrollar aplicaciones Android de manera efectiva. Algunos de los componentes incluidos en el Android SDK son:
+
+
+Herramientas de línea de comandos: Incluye herramientas como ADB (Android Debug Bridge) para depurar y administrar dispositivos Android desde la línea de comandos, así como el compilador de Java y otros utilidades útiles para el desarrollo.
+
+
+Bibliotecas de desarrollo de Android: El SDK proporciona bibliotecas de código que permiten a los desarrolladores acceder a las funcionalidades del sistema operativo Android, como la gestión de la interfaz de usuario, la gestión de la red, el acceso a bases de datos y mucho más.
+
+
+Emulador de Android: El SDK incluye un emulador de Android que permite a los desarrolladores probar sus aplicaciones en diferentes versiones de Android y en diferentes configuraciones de dispositivos sin necesidad de tener dispositivos físicos.
+
+
+Documentación y ejemplos: El SDK viene con una amplia documentación que proporciona información detallada sobre cómo utilizar las diferentes herramientas y bibliotecas incluidas en el SDK. También incluye ejemplos de código que los desarrolladores pueden utilizar como punto de partida para sus propias aplicaciones.
+
+
+
+
+
+
+
+
+
+
+
+
+● ¿Cuál es el lenguaje utilizado para desarrollar aplicaciones para Android?
+
+
+El lenguaje principal utilizado para desarrollar aplicaciones para Android es Java. Java es un lenguaje de programación ampliamente utilizado y tiene una gran base de usuarios y una amplia gama de bibliotecas disponibles, lo que lo hace ideal para el desarrollo de aplicaciones Android.
+
+
+Sin embargo, con la introducción de Android Studio, el IDE oficial para el desarrollo de aplicaciones Android, Google también ha promovido el uso de Kotlin como un lenguaje de programación alternativo. Kotlin es un lenguaje moderno que se integra bien con el SDK de Android y ofrece características adicionales que pueden hacer que el desarrollo de aplicaciones sea más eficiente y menos propenso a errores.
+
+
+● ¿Qué IDEs de desarrollo existen para codificar?
+
+
+Android Studio: Es el IDE oficial para el desarrollo de aplicaciones Android, proporcionado por Google. Está basado en IntelliJ IDEA de JetBrains y ofrece un conjunto completo de herramientas para desarrollar, depurar y probar aplicaciones para Android. Android Studio es altamente recomendado por Google y es ampliamente utilizado por desarrolladores de todo el mundo.
+
+
+Eclipse con el complemento ADT (Android Development Tools): Antes de la introducción de Android Studio, Eclipse era uno de los IDEs más populares para el desarrollo de aplicaciones Android. Aunque Google ya no brinda soporte oficial para Eclipse, algunos desarrolladores aún lo utilizan junto con el complemento ADT para el desarrollo de aplicaciones Android.
+
+
+IntelliJ IDEA: Android Studio está basado en IntelliJ IDEA, por lo que muchos desarrolladores también optan por utilizar IntelliJ IDEA como su IDE para el desarrollo de aplicaciones Android. Ofrece muchas de las mismas características que Android Studio, aunque puede requerir la instalación de complementos adicionales específicos para el desarrollo de Android.
+
+
+Visual Studio Code: Aunque no es un IDE específicamente diseñado para el desarrollo de aplicaciones Android, Visual Studio Code es un editor de código ligero y altamente personalizable que puede ser utilizado para codificar aplicaciones Android. Se pueden instalar extensiones específicas para el desarrollo de Android que proporcionan funcionalidades adicionales, como resaltado de sintaxis, completado de código y depuración.
+
+
+● Definir el concepto de Android multiusuario realizar una breve descripción de este concepto
+
+
+Android multiusuario es una característica del sistema operativo Android que permite a múltiples usuarios compartir un mismo dispositivo, cada uno con su propio espacio de trabajo personalizado. Esto significa que diferentes personas pueden tener sus propios perfiles de usuario en un solo dispositivo Android, con configuraciones, aplicaciones y datos separados y privados.
+
+
+Cuando se activa el modo multiusuario en un dispositivo Android, se pueden crear múltiples perfiles de usuario, cada uno con su propio conjunto de aplicaciones instaladas, configuraciones de sistema y datos de usuario. Cada usuario puede personalizar su perfil según sus preferencias individuales y acceder a sus propias aplicaciones y archivos de manera segura.
+
+
+Esta característica es particularmente útil en dispositivos compartidos, como tabletas familiares o dispositivos utilizados en entornos educativos o empresariales. Permite que diferentes personas utilicen el mismo dispositivo sin interferir con la experiencia de los demás usuarios y garantiza la privacidad y seguridad de los datos de cada usuario.
+
+
+● Definir el concepto de mínimo privilegio
+
+
+El principio del "mínimo privilegio" es un concepto de seguridad informática que establece que un usuario, proceso o sistema debe tener solo los privilegios necesarios para llevar a cabo sus funciones específicas y nada más. En otras palabras, se trata de otorgar a cada entidad solo los permisos mínimos que requiere para realizar su trabajo, limitando así el riesgo de daños potenciales en caso de una brecha de seguridad.
+
+
+Este enfoque ayuda a reducir la superficie de ataque y minimiza las posibilidades de que un atacante pueda acceder a recursos sensibles o realizar acciones maliciosas. Al aplicar el principio del mínimo privilegio, se pueden mitigar riesgos como el acceso no autorizado, la propagación de malware y los daños causados por errores humanos o errores de programación.
+
+
+● ¿Cuáles son los componentes esenciales de una aplicación Android?
+
+
+Los componentes esenciales de una aplicación Android son los elementos fundamentales que componen su estructura y funcionalidad. Estos componentes interactúan entre sí para proporcionar la experiencia completa de la aplicación para el usuario. Los principales componentes son:
+
+
+Actividades: Las actividades representan las distintas pantallas de la interfaz de usuario con las que interactúa el usuario. Cada actividad suele ser una pantalla independiente que puede contener elementos de la interfaz de usuario como botones, campos de texto, imágenes, etc.
+
+
+Servicios: Los servicios son componentes que se ejecutan en segundo plano sin una interfaz de usuario visible para el usuario. Se utilizan para realizar tareas de larga duración o en segundo plano, como reproducir música, descargar archivos, realizar procesamiento de datos, etc.
+
+
+Receptores de difusión (Broadcast Receivers): Los receptores de difusión son componentes que escuchan y responden a eventos del sistema o de otras aplicaciones. Pueden interceptar y responder a difusiones de eventos como la recepción de una llamada telefónica, la conexión a una red Wi-Fi, la instalación de una nueva aplicación, etc.
+
+
+Proveedores de contenido (Content Providers): Los proveedores de contenido son componentes que gestionan y proporcionan acceso a conjuntos de datos estructurados, como bases de datos SQLite, archivos de contenido multimedia, contactos del dispositivo, etc. Permiten compartir datos entre diferentes aplicaciones de manera segura y controlada.
+
+
+Estos son los componentes esenciales de una aplicación Android, y cada uno juega un papel importante en la creación de una experiencia de usuario completa y funcional. Además de estos componentes principales, una aplicación también puede hacer uso de otros recursos como servicios de ubicación, notificaciones, permisos de acceso a recursos del dispositivo, etc.
