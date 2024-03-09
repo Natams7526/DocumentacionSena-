@@ -1,0 +1,112 @@
+﻿Taller sobre tecnologías emergentes y disruptivas
+SENA 
+Desarrollo y Análisis de Software  
+
+
+Ficha 
+
+
+2627108 
+
+
+Aprendiz 
+
+
+Natalia Muñoz Serna 
+
+
+
+
+Evidencia 
+
+
+Evidencia de conocimiento: GA8-220501096-AA2-EV03 taller sobre tecnologías emergentes y disruptivas
+
+
+Sección 2 Taller
+
+
+2024
+
+
+
+
+
+
+Crowdsourcing – El poder de muchos
+
+
+● ¿En qué consiste la tecnología?
+● ¿Cuáles son las características más importantes?
+● De acuerdo a su medio ambiente ¿cómo se puede utilizar esta tecnología?
+
+
+La tecnología de crowdsourcing, también conocida como "el poder de muchos", se basa en la idea de externalizar tareas, problemas o proyectos a una amplia audiencia o comunidad en línea, en esencia, consiste en aprovechar la sabiduría y la capacidad de un grupo diverso de personas, a menudo desconocidas entre sí, para resolver problemas o generar contenido.
+La tecnología del crowdsourcing se apoya en plataformas digitales y herramientas en línea que permiten la colaboración y la participación de un gran número de personas de manera eficiente y escalable. Estas plataformas suelen facilitar la comunicación, la presentación de propuestas o contribuciones, la votación y la retroalimentación, permitiendo que la comunidad colabore de manera efectiva en la resolución de problemas o la generación de ideas.
+El crowdsourcing puede aplicarse en una amplia variedad de contextos, desde la generación de ideas para nuevos productos o servicios hasta la solución de problemas complejos en campos como la ciencia, la tecnología o el diseño. Algunos ejemplos comunes de crowdsourcing incluyen concursos de diseño, como la creación de logos o empaques, la identificación de objetos en imágenes digitales, la traducción de texto, la financiación colectiva (crowdfunding) de proyectos, y la resolución de desafíos científicos mediante juegos en línea.
+
+
+● ¿Qué recursos necesita para desarrollar un proyecto propio con estas tecnologías?
+
+
+* Plataforma de Crowdsourcing: Se necesita una plataforma en línea que permita la colaboración y participación de la comunidad en el proyecto. Esta plataforma debe permitir la presentación de propuestas, votaciones, comentarios y la interacción entre los participantes.
+* Habilidades de Desarrollo Web: Se necesitan habilidades de desarrollo web para crear y mantener la plataforma de crowdsourcing. Esto incluye conocimientos en lenguajes de programación web como HTML, CSS, JavaScript, así como en frameworks y bibliotecas populares.
+* Diseño de Interfaz de Usuario (UI) y Experiencia de Usuario (UX): Para garantizar una experiencia de usuario atractiva y funcional, se requieren habilidades en diseño de UI/UX. Esto implica crear interfaces intuitivas y fáciles de usar para los participantes del crowdsourcing.
+* Seguridad de la Información: Es importante implementar medidas de seguridad adecuadas para proteger la información y los datos de los participantes en el crowdsourcing. Esto puede incluir cifrado de datos, autenticación de usuarios y medidas para prevenir el acceso no autorizado.
+* Gestión de Proyectos: Se necesitan habilidades de gestión de proyectos para planificar, organizar y supervisar todas las etapas del proyecto de crowdsourcing.
+* Recursos Financieros: Dependiendo del alcance y la complejidad del proyecto, pueden ser necesarios recursos financieros para el desarrollo y mantenimiento de la plataforma de crowdsourcing, así como para incentivar la participación de los usuarios a través de premios, recompensas o compensaciones económicas.
+
+
+Blockchain – Cadena de bloques.
+
+
+● ¿En qué consiste la tecnología?
+● ¿Cuáles son las características más importantes?
+● De acuerdo a su medio ambiente ¿cómo se puede utilizar esta tecnología?
+
+
+
+
+La tecnología Blockchain, también conocida como cadena de bloques, es un sistema descentralizado de registro de transacciones que permite almacenar y distribuir información de forma segura y transparente. Consiste en una cadena de bloques de datos, donde cada bloque está vinculado al anterior mediante un hash criptográfico, creando así una secuencia inmutable y transparente de registros.
+En esencia, la tecnología Blockchain es un libro de contabilidad digital distribuido y descentralizado que registra todas las transacciones realizadas en una red. Cada transacción es validada por la red y luego agregada a un bloque, que luego se une a la cadena de bloques. Esto significa que una vez que una transacción ha sido registrada en la cadena de bloques, no se puede modificar ni eliminar, lo que garantiza la inmutabilidad de los datos.
+La tecnología Blockchain se puede utilizar en el desarrollo de software de diversas maneras, algunas de las cuales incluyen:
+* Criptomonedas y Pagos: La aplicación más conocida de la tecnología Blockchain es en las criptomonedas como Bitcoin y Ethereum. La Blockchain se utiliza para registrar todas las transacciones de criptomonedas de manera segura y transparente, eliminando la necesidad de intermediarios como bancos o instituciones financieras.
+* Contratos Inteligentes: Los contratos inteligentes son programas informáticos que se ejecutan automáticamente cuando se cumplen ciertas condiciones predefinidas. La tecnología Blockchain permite la creación y ejecución de contratos inteligentes de manera segura y descentralizada, lo que elimina la necesidad de intermediarios y reduce los costos y tiempos de procesamiento.
+* Gestión de Identidad y Autenticación: La Blockchain se puede utilizar para gestionar la identidad digital de manera segura y transparente, permitiendo a las personas controlar y compartir su información de manera segura y sin necesidad de intermediarios.
+* Gestión de Cadena de Suministro: La tecnología Blockchain se puede utilizar para rastrear el movimiento de productos a lo largo de la cadena de suministro, desde la producción hasta la entrega final al cliente. Esto permite una mayor transparencia y trazabilidad en la cadena de suministro, lo que puede ayudar a prevenir el fraude y mejorar la eficiencia operativa.
+* Votación Electrónica: La Blockchain se puede utilizar para realizar votaciones electrónicas de manera segura y transparente, garantizando la integridad y la autenticidad de los resultados.
+
+
+Voice to text – El crecimiento de los asistentes virtuales.
+
+
+● ¿En qué consiste la tecnología?
+● ¿Cuáles son las características más importantes?
+
+
+Es un sistema que convierte el habla humana en texto escrito de manera automatizada.
+Las características más importantes de la tecnología Voice-to-Text son:
+* Precisión: Los sistemas de reconocimiento de voz avanzados están diseñados para interpretar con precisión el habla humana y convertirla en texto sin errores significativos.
+* Velocidad: La tecnología Voice-to-Text permite una transcripción rápida y eficiente del habla en tiempo real. Esto es especialmente útil en situaciones donde se requiere una respuesta inmediata, como en la dictación de mensajes de texto o correos electrónicos.
+* Adaptabilidad: Los sistemas de reconocimiento de voz deben ser capaces de adaptarse a diferentes acentos, tonos de voz, y estilos de habla para garantizar una transcripción precisa en una variedad de contextos y situaciones.
+* Compatibilidad: Es importante que la tecnología Voice-to-Text sea compatible con una amplia gama de dispositivos y plataformas, incluyendo teléfonos inteligentes, tabletas, computadoras, y sistemas de automatización del hogar.
+* Funcionalidades adicionales:
+* Además de la transcripción básica de voz a texto, muchos sistemas de reconocimiento de voz ofrecen funcionalidades adicionales como la capacidad de traducción, la identificación de hablantes, el análisis de sentimientos, y la integración con otros servicios y aplicaciones.
+* Privacidad y seguridad: Dado que la tecnología Voice-to-Text implica el procesamiento y almacenamiento de datos de voz, es fundamental garantizar la privacidad y seguridad de la información del usuario. Los sistemas deben cumplir con rigurosas normas de privacidad y protección de datos para proteger la información del usuario.
+* ● De acuerdo a su medio ambiente ¿cómo se puede utilizar esta tecnología?
+● ¿Qué recursos necesita para desarrollar un proyecto propio con estas tecnologías?
+
+
+La tecnología Voice-to-Text se puede utilizar en el desarrollo de software de diversas maneras, aprovechando su capacidad para convertir el habla humana en texto escrito de manera automatizada. Aquí hay algunas formas en que esta tecnología puede ser aplicada en el desarrollo de software:
+* Interfaz de Usuario por Voz: Integrar la tecnología Voice-to-Text en aplicaciones de software para permitir a los usuarios interactuar mediante comandos de voz en lugar de utilizar interfaces gráficas tradicionales. Por ejemplo, en aplicaciones móviles o de escritorio, los usuarios podrían realizar búsquedas, enviar mensajes, crear notas o realizar acciones dentro de la aplicación utilizando su voz.
+* Transcripción de Audio: Utilizar la tecnología Voice-to-Text para transcribir automáticamente archivos de audio o grabaciones de voz en texto escrito. Esto podría ser útil en aplicaciones de dictado, transcripción de reuniones, generación de subtítulos para vídeos, entre otros.
+* Asistentes Virtuales: Desarrollar asistentes virtuales basados en voz que puedan interactuar con los usuarios para realizar tareas específicas, responder preguntas, brindar información, o realizar acciones en función de comandos de voz. Estos asistentes pueden integrarse en aplicaciones existentes o ser desarrollados como aplicaciones independientes.
+* Automatización de Procesos: Utilizar la tecnología Voice-to-Text en sistemas de automatización de procesos para permitir la entrada de datos mediante comandos de voz. Por ejemplo, en sistemas de gestión empresarial, los usuarios podrían actualizar registros, completar formularios o realizar otras acciones utilizando su voz en lugar de ingresar manualmente los datos.
+* Accesibilidad: Mejorar la accesibilidad de las aplicaciones de software mediante la integración de funciones de reconocimiento de voz que permitan a las personas con discapacidades visuales o motoras interactuar con la aplicación de manera más efectiva.
+En cuanto a los recursos necesarios para desarrollar un proyecto propio con estas tecnologías, aquí hay algunos que podrían ser importantes:
+* Herramientas de Desarrollo: Se necesitarán herramientas de desarrollo de software, como IDEs (Entornos de Desarrollo Integrado) o editores de código, para escribir y depurar el código de la aplicación.
+* APIs y SDKs: Se pueden utilizar APIs (Interfaces de Programación de Aplicaciones) y SDKs (Kits de Desarrollo de Software) proporcionados por proveedores de tecnología Voice-to-Text para integrar la funcionalidad de reconocimiento de voz en la aplicación.
+* Conocimientos de Programación: Es esencial contar con conocimientos de programación en los lenguajes y tecnologías necesarios para desarrollar la aplicación, así como en el manejo de APIs y SDKs relacionados con la tecnología Voice-to-Text.
+* Recursos de Aprendizaje: Dado que la tecnología Voice-to-Text está en constante evolución, es importante contar con acceso a recursos de aprendizaje, como documentación oficial, tutoriales en línea, cursos y comunidades de desarrollo, para mantenerse actualizado y aprender nuevas habilidades según sea necesario.
+* Hardware y Software: Dependiendo de la aplicación específica, es posible que se necesiten dispositivos de hardware como micrófonos de calidad y altavoces para capturar y reproducir audio, así como software de grabación y edición de audio si se trabaja con archivos de audio existentes.
+* Pruebas y Evaluación: Se requerirán recursos para realizar pruebas exhaustivas de la funcionalidad de reconocimiento de voz en la aplicación, así como para evaluar la precisión y la eficacia del sistema en condiciones de uso real.
