@@ -1,0 +1,271 @@
+﻿Taller sobre tecnologías emergentes y disruptivas
+SENA 
+Desarrollo y Análisis de Software  
+
+
+Ficha 
+
+
+2627108 
+
+
+Aprendiz 
+
+
+Natalia Muñoz Serna 
+
+
+
+
+Evidencia 
+
+
+Evidencia de conocimiento: GA8-220501096-AA2-EV03 taller sobre tecnologías emergentes y disruptivas
+
+
+Sección 2 Taller
+
+
+2024
+
+
+
+
+BLOCKCHAIN
+
+
+EN QUÉ CONSISTE?
+
+
+La tecnología Blockchain es un sistema descentralizado de registro de transacciones que permite almacenar y distribuir información de forma segura y transparente. A diferencia de los sistemas tradicionales de base de datos centralizados, donde la información se almacena en un solo lugar y es administrada por una entidad central, la Blockchain opera mediante una red distribuida de nodos que trabajan juntos para validar y registrar las transacciones.
+
+
+En esencia, la Blockchain es una cadena de bloques de datos, donde cada bloque está vinculado al anterior mediante un hash criptográfico, creando así una secuencia inmutable y transparente de registros. Cada bloque contiene un conjunto de transacciones confirmadas y un hash que apunta al bloque anterior, formando una cadena continua de bloques que se extiende desde el primer bloque (conocido como bloque génesis) hasta el bloque más reciente.
+
+
+La principal característica de la tecnología Blockchain es su naturaleza descentralizada y distribuida, lo que significa que no hay una autoridad central que controle la red. En cambio, la información se almacena y verifica de manera redundante en múltiples nodos de la red, lo que hace que sea extremadamente difícil para cualquier persona o entidad manipular o falsificar los datos.
+
+
+La Blockchain se utiliza principalmente para registrar transacciones financieras, como en el caso de las criptomonedas como Bitcoin, donde cada transacción se registra en la cadena de bloques de forma permanente y verificable. Sin embargo, su aplicación va más allá de las criptomonedas y se extiende a una variedad de industrias y casos de uso, incluyendo la gestión de la cadena de suministro, la identidad digital, la votación electrónica, entre otros.
+
+
+OBJETIVOS
+
+
+los objetivos principales de la tecnología Blockchain son crear un sistema descentralizado, transparente, seguro e inmutable para el registro y seguimiento de transacciones. Estos objetivos buscan abordar los desafíos asociados con los sistemas de registro de datos centralizados y ofrecer una alternativa más confiable y eficiente para una variedad de aplicaciones y sectores industriales.
+
+
+Descentralización: Uno de los principales objetivos de la tecnología Blockchain es eliminar la necesidad de una autoridad central o intermediarios para validar y registrar las transacciones. En lugar de depender de una entidad centralizada, la Blockchain opera en una red distribuida de nodos, donde cada nodo tiene una copia completa de la cadena de bloques y participa en el proceso de validación de transacciones.
+
+
+Transparencia: Otro objetivo clave es proporcionar transparencia en el registro y seguimiento de transacciones. Debido a que la información en la Blockchain es pública y accesible para todos los participantes de la red, se puede verificar fácilmente la validez de las transacciones y el historial de cualquier activo o dato registrado en la cadena de bloques.
+
+
+Inmutabilidad: La tecnología Blockchain busca garantizar la inmutabilidad de los datos registrados en la cadena de bloques, lo que significa que una vez que una transacción ha sido agregada a la cadena, no puede ser modificada ni eliminada. Esto proporciona una capa adicional de seguridad y confianza en la integridad de los registros.
+
+
+Seguridad: La Blockchain utiliza criptografía avanzada para garantizar la seguridad y la protección de los datos almacenados en la cadena de bloques. Los algoritmos criptográficos se utilizan para firmar digitalmente las transacciones y garantizar que solo los usuarios autorizados puedan acceder y modificar los datos en la cadena.
+
+
+Eficiencia y reducción de costos: Al eliminar intermediarios y simplificar los procesos de validación y registro de transacciones, la tecnología Blockchain tiene como objetivo mejorar la eficiencia y reducir los costos asociados con la administración y gestión de datos. Esto puede ser especialmente beneficioso en industrias como la financiera, la logística y la gestión de la cadena de suministro.
+
+
+ANTECEDENTES 
+
+
+Los antecedentes de la tecnología Blockchain se remontan a la década de 1990, cuando se comenzaron a explorar conceptos y tecnologías relacionadas con la creación de sistemas de registro de datos descentralizados y seguros. Si bien la idea de una cadena de bloques en sí misma no surgió hasta más tarde, varios desarrollos y conceptos sentaron las bases para su eventual creación. Algunos de los antecedentes más relevantes incluyen:
+
+
+Criptografía: La criptografía ha sido un campo de estudio y desarrollo clave para la tecnología Blockchain. Los avances en criptografía, especialmente en el campo de las funciones hash y las firmas digitales, han sido fundamentales para garantizar la seguridad y la integridad de los datos en una cadena de bloques.
+
+
+Bit Gold: En 1998, el informático Nick Szabo propuso un sistema descentralizado para crear una forma de dinero digital llamada Bit Gold. Aunque Bit Gold nunca se implementó, su concepto sentó las bases para lo que más tarde se convertiría en Bitcoin y la tecnología Blockchain.
+
+
+Hashcash: En 1997, Adam Back propuso el sistema Hashcash como una forma de combatir el spam en línea. Hashcash utilizaba funciones hash para crear un sistema de prueba de trabajo que requería que los remitentes de correo electrónico realizaran un trabajo computacional antes de enviar un mensaje. Este concepto también influyó en el desarrollo de Bitcoin y la tecnología Blockchain.
+
+
+Bitcoin: En 2008, un documento titulado "Bitcoin: A Peer-to-Peer Electronic Cash System" fue publicado por una persona o grupo bajo el seudónimo de Satoshi Nakamoto. Este documento describe un sistema de efectivo electrónico peer-to-peer basado en la tecnología Blockchain. En 2009, se lanzó la red Bitcoin, marcando el inicio de la era de las criptomonedas y la tecnología Blockchain.
+
+
+Ethereum: En 2013, el programador Vitalik Buterin propuso un nuevo sistema blockchain con capacidades de contrato inteligente. En 2015, se lanzó Ethereum, que permitía a los desarrolladores crear aplicaciones descentralizadas (dApps) y contratos inteligentes en la cadena de bloques Ethereum.
+
+
+Estos antecedentes sentaron las bases para el desarrollo y la adopción generalizada de la tecnología Blockchain. Desde entonces, la tecnología ha evolucionado y se ha aplicado en una variedad de industrias y casos de uso más allá de las criptomonedas, demostrando su versatilidad y potencial disruptivo en el mundo digital.
+
+
+EN QUÉ CONSISTE LA CRIPTOGRAFÍA 
+
+
+La criptografía es el estudio y la práctica de técnicas y algoritmos matemáticos utilizados para proteger la confidencialidad, la integridad y la autenticidad de la información. En esencia, la criptografía se ocupa de la codificación y decodificación de datos de manera que solo las personas autorizadas puedan acceder a la información.
+
+
+Existen varios aspectos clave de la criptografía que son fundamentales para entender su funcionamiento:
+
+
+Confidencialidad: La criptografía se utiliza para cifrar los datos, lo que significa convertir la información en un formato ilegible utilizando un algoritmo y una clave de cifrado. Solo aquellos que tienen la clave de descifrado adecuada pueden revertir el proceso y leer la información original.
+
+
+Integridad: La criptografía también se utiliza para garantizar la integridad de los datos, lo que significa protegerlos contra modificaciones no autorizadas. Esto se logra mediante el uso de funciones hash, que generan un valor único para un conjunto de datos y permiten verificar si ha sido alterado.
+
+
+Autenticidad: La criptografía se utiliza para verificar la autenticidad de los datos y la identidad de los remitentes y receptores. Esto se logra mediante el uso de firmas digitales, que son equivalentes digitales de firmas manuscritas y pueden utilizarse para autenticar documentos y mensajes.
+
+
+La criptografía se divide en dos categorías principales:
+
+
+Criptografía Simétrica: La criptografía simétrica es un método de cifrado en el cual la misma clave se utiliza tanto para cifrar como para descifrar los datos. En otras palabras, tanto el remitente como el receptor comparten una única clave secreta que se utiliza para proteger la confidencialidad de la información durante la comunicación.
+
+
+En el proceso de cifrado simétrico, los datos originales, conocidos como texto claro, se convierten en un formato ilegible utilizando la clave secreta y un algoritmo de cifrado. Este proceso se conoce como cifrado. Luego, los datos cifrados resultantes se envían a través de un canal de comunicación inseguro. En el extremo receptor, el proceso de descifrado utiliza la misma clave secreta y un algoritmo de descifrado correspondiente para convertir los datos cifrados de nuevo al formato original, es decir, al texto claro.
+
+
+La principal ventaja de la criptografía simétrica es su eficiencia y velocidad. Los algoritmos de cifrado simétrico son generalmente más rápidos y requieren menos recursos computacionales que los algoritmos de cifrado asimétrico. Además, son adecuados para cifrar grandes cantidades de datos de manera rápida y eficiente.
+
+
+Sin embargo, la principal limitación de la criptografía simétrica es la necesidad de compartir la clave secreta de manera segura entre las partes comunicantes. Si un tercero no autorizado intercepta la clave, podría acceder fácilmente a los datos cifrados y descifrarlos. Por lo tanto, el intercambio seguro de claves simétricas es un desafío importante en la implementación de sistemas de seguridad basados en criptografía simétrica.
+
+
+Criptografía Asimétrica:La criptografía asimétrica, también conocida como criptografía de clave pública, es un método de cifrado que utiliza un par de claves distintas pero matemáticamente relacionadas: una clave pública y una clave privada. Cada usuario tiene su propio par de claves, compuesto por una clave pública y una clave privada.
+
+
+En la criptografía asimétrica, la clave pública se comparte libremente con cualquier persona que desee enviar un mensaje cifrado al titular de la clave, mientras que la clave privada se mantiene en secreto y solo el titular de la clave tiene acceso a ella.
+
+
+El proceso de cifrado con criptografía asimétrica implica que el remitente utilice la clave pública del destinatario para cifrar el mensaje. Una vez que el mensaje está cifrado con la clave pública del destinatario, solo la clave privada correspondiente al par de claves utilizada para cifrar puede descifrarlo. Esto significa que sólo el destinatario, que posee la clave privada correspondiente, puede descifrar el mensaje y leerlo en su forma original.
+
+
+La criptografía asimétrica se utiliza principalmente para garantizar la confidencialidad, la integridad y la autenticidad de los datos durante la comunicación en redes inseguras, como Internet. Algunos de sus usos más comunes incluyen:
+
+
+Autenticación: La criptografía asimétrica se utiliza para verificar la identidad de las partes comunicantes. Por ejemplo, un sitio web puede usar un certificado digital que incluya su clave pública para autenticarse ante los usuarios.
+
+
+Firmas Digitales: Se utilizan para garantizar la autenticidad e integridad de los mensajes. Una firma digital se crea cifrando un resumen (hash) del mensaje con la clave privada del remitente. El destinatario puede verificar la firma utilizando la clave pública del remitente.
+
+
+Cifrado de Datos: Se utiliza para cifrar datos confidenciales antes de enviarlos a través de un canal de comunicación inseguro. Los datos se cifran con la clave pública del destinatario y sólo pueden descifrarse con la clave privada correspondiente.
+
+
+La criptografía asimétrica ofrece ventajas significativas en términos de seguridad y gestión de claves en comparación con la criptografía simétrica. Sin embargo, debido a su mayor complejidad y sobrecarga computacional, es menos eficiente que la criptografía simétrica y, por lo tanto, se utiliza generalmente para operaciones de cifrado de claves y firmas digitales, mientras que la criptografía simétrica se utiliza para el cifrado de datos.
+
+
+EN QUÉ CONSISTE EL HASH EN BLOCKCHAIN.
+
+
+En el contexto de la tecnología Blockchain, un hash es una función matemática que convierte una cantidad arbitrariamente grande de datos en una cadena de longitud fija. Esta cadena de caracteres resultante es única para un conjunto de datos específico, lo que significa que incluso un cambio menor en los datos originales generará un hash completamente diferente.
+
+
+El hash en Blockchain se utiliza principalmente para dos propósitos principales:
+
+
+Garantizar la integridad de los datos: Cuando se crea un bloque en la cadena de bloques, el hash se calcula utilizando todos los datos del bloque, incluyendo la información de las transacciones y el hash del bloque anterior. Este hash sirve como una "firma digital" única que representa todos los datos del bloque. Cualquier alteración en los datos del bloque, como una modificación en una transacción, cambiará completamente el hash resultante. Por lo tanto, cuando los nodos de la red de Blockchain verifican un nuevo bloque, pueden calcular su hash y compararlo con el hash almacenado en el bloque anterior para asegurarse de que no haya habido manipulación de los datos.
+
+
+Vincular los bloques en una cadena: Cada bloque en la cadena de bloques contiene el hash del bloque anterior en la secuencia. Esto crea una relación de dependencia entre los bloques, donde cualquier cambio en un bloque afectará al hash de ese bloque y, por lo tanto, a todos los bloques posteriores. Esta característica garantiza que la cadena de bloques sea inmutable y que cualquier intento de modificar un bloque requiera también la modificación de todos los bloques posteriores, lo que resulta en un consenso de la red para validar la modificación.
+
+
+CONCEPTO DE BLOQUE 
+
+
+Un bloque es una unidad de datos que contiene información sobre transacciones, así como otros metadatos relacionados. Cada bloque en la cadena de bloques está vinculado al bloque anterior, creando así una secuencia continua de bloques que registra todas las transacciones realizadas en la red.
+
+
+Cada bloque en la cadena de bloques consta de varios componentes principales:
+
+
+Encabezado del Bloque: El encabezado del bloque contiene metadatos importantes, como un sello de tiempo que indica cuándo se creó el bloque, un nonce (número utilizado una vez) para validar la prueba de trabajo, y el hash del bloque anterior en la cadena. Este último elemento es crucial para vincular los bloques en una secuencia continua.
+
+
+Datos de las Transacciones: El bloque también contiene un conjunto de transacciones válidas que se han llevado a cabo en la red desde la creación del bloque anterior. Estas transacciones pueden incluir cualquier tipo de intercambio de valor, como transferencias de criptomonedas, contratos inteligentes ejecutados o registros de activos digitales.
+
+
+Hash del Bloque: Cada bloque tiene un hash único que se calcula utilizando todos los datos del bloque, incluido el encabezado del bloque y los datos de las transacciones. Este hash sirve como una "firma digital" única que representa todos los datos del bloque. Cualquier alteración en los datos del bloque, como una modificación en una transacción, cambiará completamente el hash resultante.
+
+
+Los bloques en la cadena de bloques se crean mediante un proceso conocido como minería, donde los nodos de la red compiten para resolver complejos problemas matemáticos para encontrar un hash válido que cumpla con ciertos criterios predefinidos. Una vez que se encuentra este hash válido, el bloque se agrega a la cadena de bloques y se distribuye a través de la red para su validación por otros nodos.
+
+
+PRODUCTOS QUE SE HAN REALIZADO CON BLOCKCHAIN
+
+
+Algunos de los productos más destacados que se han desarrollado utilizando esta tecnología incluyen:
+
+
+Criptomonedas: La aplicación más conocida de la tecnología Blockchain son las criptomonedas, como Bitcoin, Ethereum, Ripple y Litecoin. Estas monedas digitales utilizan Blockchain como su infraestructura subyacente para registrar y verificar las transacciones de forma descentralizada y segura.
+
+
+Plataformas de Contratos Inteligentes: Ethereum, la segunda criptomoneda más grande por capitalización de mercado, introdujo la capacidad de ejecutar contratos inteligentes en su red Blockchain. Estos contratos son programas informáticos autoejecutables que automatizan y facilitan la ejecución de acuerdos entre partes, sin necesidad de intermediarios.
+
+
+Aplicaciones Descentralizadas (dApps): Basadas en plataformas Blockchain como Ethereum, EOS, y Tron, las dApps son aplicaciones descentralizadas que funcionan en una red peer-to-peer sin un punto central de control. Estas aplicaciones pueden abarcar una amplia variedad de sectores, incluidos los juegos, las finanzas, la identidad digital y mucho más.
+
+
+Registros de la Cadena de Suministro: La tecnología Blockchain se ha utilizado para crear sistemas de seguimiento y trazabilidad en la cadena de suministro, permitiendo a las empresas rastrear el origen y el recorrido de productos desde su fabricación hasta su entrega al cliente final. Esto puede mejorar la transparencia, la autenticidad y la eficiencia en la cadena de suministro.
+
+
+Identidad Digital: Se han desarrollado soluciones basadas en Blockchain para gestionar y proteger la identidad digital de los usuarios. Estas soluciones permiten a los individuos controlar y compartir su información personal de manera segura y descentralizada, lo que puede ayudar a prevenir el robo de identidad y mejorar la privacidad en línea.
+
+
+Votación Electrónica: Algunos proyectos están explorando el uso de Blockchain para crear sistemas de votación electrónica seguros y transparentes. Al registrar los votos en una cadena de bloques, se puede garantizar la integridad y la autenticidad de los resultados electorales, así como reducir el riesgo de fraude o manipulación.
+
+
+DIAGRAMA BLOCKCHAIN   
+
+
+QUE ES UNA CRIPTOMONEDA
+
+
+Una criptomoneda es una forma de moneda digital que utiliza criptografía para garantizar la seguridad de las transacciones y para controlar la creación de nuevas unidades de la moneda. A diferencia de las monedas tradicionales emitidas por gobiernos o bancos centrales, las criptomonedas operan de forma descentralizada en una red peer-to-peer (P2P) basada en tecnología Blockchain u otras tecnologías similares.
+
+
+Las criptomonedas son digitales, lo que significa que existen únicamente en formato electrónico y no tienen forma física. Estas monedas son generalmente almacenadas en carteras digitales, que pueden ser software, hardware o incluso carteras en línea, y permiten a los usuarios enviar, recibir y gestionar sus criptomonedas de forma segura.
+
+
+Una de las características más destacadas de las criptomonedas es su descentralización. Esto significa que no están controladas por ninguna autoridad central, como un gobierno o un banco central. En lugar de ello, las transacciones con criptomonedas se verifican y registran de manera descentralizada en una red de computadoras (nodos) que ejecutan algoritmos criptográficos.
+
+
+La mayoría de las criptomonedas utilizan la tecnología Blockchain, que es un registro digital de transacciones que se distribuye a través de una red de nodos. Cada transacción en la cadena de bloques está cifrada y vinculada a la transacción anterior, lo que garantiza la integridad y la seguridad de la red.
+
+
+Algunas características importantes de las criptomonedas son:
+
+
+Anonimato y Privacidad: Las criptomonedas permiten a los usuarios realizar transacciones de forma anónima, sin revelar su identidad real. Aunque las transacciones son públicas, la identidad de los usuarios está protegida mediante claves criptográficas.
+
+
+Seguridad: Las criptomonedas utilizan criptografía avanzada para garantizar la seguridad de las transacciones y proteger contra el fraude y la manipulación.
+
+
+Transacciones Globales: Las criptomonedas pueden ser enviadas y recibidas en cualquier parte del mundo, sin importar las fronteras geográficas o las restricciones financieras.
+
+
+Escasez Controlada: Muchas criptomonedas tienen una oferta limitada, lo que significa que solo se pueden crear un número finito de unidades. Esto ayuda a proteger el valor de la moneda y a prevenir la inflación.
+
+
+MINERÍA DE CRIPTOMONEDAS
+
+
+La minería de criptomonedas es el proceso mediante el cual se verifican y se añaden nuevas transacciones a un blockchain, así como la forma en que nuevas criptomonedas se ponen en circulación. Es un proceso fundamental en el funcionamiento de muchas criptomonedas, como Bitcoin y Ethereum, y desempeña un papel crucial en la seguridad y la integridad de estas redes descentralizadas.
+
+
+El proceso de minería de criptomonedas implica la resolución de complejos problemas matemáticos, conocidos como algoritmos de prueba de trabajo (Proof of Work), que requieren una gran cantidad de poder computacional. Los mineros compiten entre sí para resolver estos problemas y agregar un nuevo bloque de transacciones a la cadena de bloques.
+
+
+El proceso de minería puede entenderse en los siguientes pasos:
+
+
+Verificación de Transacciones: Los mineros recopilan transacciones pendientes y las agrupan en un bloque.
+
+
+Resolución del Problema Matemático: Los mineros compiten para resolver un problema matemático complejo, que implica encontrar un hash único que cumpla con ciertos criterios predefinidos. Este proceso requiere una gran cantidad de potencia informática y consume una cantidad significativa de energía.
+
+
+Validación y Agregación del Bloque: Una vez que un minero encuentra una solución al problema, lo anuncia a la red. Los otros nodos en la red luego verifican la validez de la solución y el bloque de transacciones propuesto. Si es válido, el bloque se agrega a la cadena de bloques, y las transacciones dentro del bloque se confirman y se consideran permanentes.
+
+
+Recompensa para el Minero: Como recompensa por su trabajo y el consumo de recursos, el minero que resuelve el problema matemático primero recibe una recompensa en forma de nuevas criptomonedas, así como tarifas de transacción asociadas con las transacciones incluidas en el bloque.
+
+
+La minería de criptomonedas es esencial para el mantenimiento y la seguridad de la red, ya que garantiza la descentralización y la inmutabilidad de las transacciones. Sin embargo, también ha generado preocupaciones sobre el consumo de energía y los impactos ambientales asociados con el uso intensivo de recursos computacionales. Como resultado, algunas criptomonedas están explorando alternativas más eficientes energéticamente, como algoritmos de consenso de prueba de participación (Proof of Stake), que no requieren el mismo nivel de poder computacional para validar transacciones
