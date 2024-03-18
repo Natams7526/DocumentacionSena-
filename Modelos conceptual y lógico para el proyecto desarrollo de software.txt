@@ -1,0 +1,210 @@
+﻿Modelos conceptual y lógico para el proyecto desarrollo de software
+SENA 
+
+
+Desarrollo y Análisis de Software  
+
+
+Ficha 
+
+
+2627108 
+
+
+Aprendiz 
+
+
+Natalia Muñoz Serna 
+
+
+
+
+Evidencia 
+
+
+Modelos conceptual y lógico para el proyecto desarrollo de software GA4-220501095-AA1-EV02.
+
+
+
+
+
+
+2024
+
+
+
+
+
+
+Modelo Conceptual:
+Entidades Principales:
+* Clients: Representa a los clientes que desean agendar una cita en la barbería.
+* Barbers: Representa a los barberos que ofrecen servicios en la barbería.
+* appointments: Representa las citas agendadas por los clientes con los barberos.
+* appointments_ det: Representa los detalles de las citas.
+* Relaciones:
+* Un cliente puede agendar múltiples citas.
+* Un barbero puede tener múltiples citas programadas.
+* Una cita solo puede tener un barbero y un cliente. 
+Modelo Lógico:
+
+
+Tablas Principales:
+* Clients (ID, Name, Phone, Email, status)
+* Barbers (ID, Name,color, image url, phone, status, )
+* appointments  (ID, ClientsID, BarbersID, TimeStart, canceled,createby updateby,create_time, update_time)
+* appointments_det  (ID, appointment_id,client_id)
+Relaciones:
+* La tabla Cita tiene una clave externa (ClientsID) que referencia la tabla Cliente.
+* La tabla Cita tiene una clave externa (BarbersID) que referencia la tabla Barbero.
+
+
+Diccionario de Datos:
+
+
+        tabla appointments: 
+* Nombre del campo: time_start
+* Tipo de dato: timestamp
+* Restricciones: formato AAAA/MM/DD:HH:mm:ss
+* Descripción: En este caso utilizamos el time start para definir la hora en que se desea agendar la cita.
+* Ejemplos: 2024-01-31 11:00:00.000
+
+
+        Nombre del campo: barber_id
+Tipo de dato:int8  
+Longitud: long en java 
+Restricciones:  foreign key .
+Descripción: identificador unico del barbero 
+Ejemplos: 1
+
+
+Nombre del campo: client_id
+Tipo de dato:int8 
+Longitud: long en java 
+Restricciones:  foreign key
+Descripción: identificador único del cliente .
+Ejemplos: 1
+
+
+Nombre del campo: canceled
+Tipo de dato: boolean.
+Longitud : true - false
+Restricciones: no nulo = false 
+Descripción: indica si la cita se encuentra cancelada o no.
+
+
+Nombre del campo: created_by
+Tipo de dato: int8
+* Restricciones: solo debe contener 10 números 
+Descripción: este debe ser el número del cliente que registró la cita que sirve para identificar quién realizó la creación de la misma. 
+Ejemplos: 3000000000
+
+
+Nombre del campo: created_time
+Tipo de dato: timestamp
+* Restricciones: formato AAAA/MM/DD:HH:mm:ss
+* Descripción: En este caso utilizamos el time start para definir la hora en que se se creó la cita .
+* Ejemplos: 2024-01-31 11:00:00.000
+
+
+
+
+
+
+
+
+Nombre del campo: updated_by
+Tipo de dato: int8
+* Restricciones: solo debe contener 10 números 
+Descripción: este debe ser el número del cliente que actualizo  la cita que sirve para identificar quién realizó la actualización de la misma. 
+Ejemplos: 3000000000
+
+
+Nombre del campo: updated_time
+Tipo de dato: timestamp
+* Restricciones: formato AAAA/MM/DD:HH:mm:ss
+* Descripción: En este caso utilizamos el time start para definir la hora en que se se actualizó  la cita .
+* Ejemplos: 2024-01-31 11:00:00.000
+
+
+tabla barbers:
+
+
+        Nombre del campo: id
+Tipo de dato:bigserial
+Longitud: long en java 
+Restricciones:  principal  key .
+Descripción: identificador unico del barbero 
+Ejemplos: 1
+
+
+Nombre del campo: color
+Tipo de dato:varchar
+Longitud: 255
+Descripción: es el color con el que se identificará al barbero .
+
+
+Nombre del campo: image url 
+Tipo de dato: varchar 
+Longitud : 1500
+Descripción: será una url que contenga la foto del barbero .
+Ejemplos:https://elasticbeanstalk-301147089.s3.amazonaws.com/perfil+rona.jpg
+
+
+Nombre del campo: name
+Tipo de dato:varchar
+Longitud: 255
+Descripción: nombre del barbero.
+Ejemplos: Jesús Quintana
+
+
+Nombre del campo: phone
+Tipo de dato:varchar
+Longitud: 255
+Descripción: telefono del barbero.
+Ejemplos: 3102581451
+
+
+Nombre del campo: status
+Tipo de dato: boolean.
+Longitud : true - false
+Restricciones: no nulo = false 
+Descripción: indica si el barbero está disponible o no .
+
+
+tabla clients:
+
+
+        Nombre del campo: id
+Tipo de dato:bigserial
+Longitud: long en java 
+Restricciones:  principal  key .
+Descripción: identificador unico del cliente  
+Ejemplos: 1
+
+
+Nombre del campo: email
+Tipo de dato:varchar
+Longitud: 255
+Descripción: es el email del cliente .
+
+
+Nombre del campo: name
+Tipo de dato:varchar
+Longitud: 255
+Descripción: nombre del cliente.
+Ejemplos: natalia muñoz
+
+
+Nombre del campo: phone
+Tipo de dato:varchar
+Longitud: 255
+Descripción: teléfono del cliente .
+Ejemplos: 3022265695
+
+
+Nombre del campo: status
+Tipo de dato: boolean.
+Longitud : true - false
+Restricciones: no nulo = false 
+Descripción: indica si el barbero está disponible o no .
